@@ -3,11 +3,11 @@
 [This component](https://github.com/scabbiafw/scabbia2-formatters/) is a simple abstraction layer which helps scabbia2 to generate output in various formats such as Html, Console and etc. New formatters can be derived by implementing `Scabbia\Formatters\FormatterInterface` interface.
 
 [![Build Status](https://travis-ci.org/scabbiafw/scabbia2-formatters.png?branch=master)](https://travis-ci.org/scabbiafw/scabbia2-formatters)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scabbiafw/scabbia2-formatters/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/scabbiafw/scabbia2-formatters/?branch=master)
 [![Total Downloads](https://poser.pugx.org/scabbiafw/scabbia2-formatters/downloads.png)](https://packagist.org/packages/scabbiafw/scabbia2-formatters)
 [![Latest Stable Version](https://poser.pugx.org/scabbiafw/scabbia2-formatters/v/stable)](https://packagist.org/packages/scabbiafw/scabbia2-formatters)
 [![Latest Unstable Version](https://poser.pugx.org/scabbiafw/scabbia2-formatters/v/unstable)](https://packagist.org/packages/scabbiafw/scabbia2-formatters)
 [![Documentation Status](https://readthedocs.org/projects/scabbia2-documentation/badge/?version=latest)](http://docs.scabbiafw.com/)
-[![License](https://poser.pugx.org/scabbiafw/scabbia2-formatters/license.png)](https://packagist.org/packages/scabbiafw/scabbia2-formatters)
 
 ## Links
 - [Documentation](http://docs.scabbiafw.com/)
