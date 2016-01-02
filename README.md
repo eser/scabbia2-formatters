@@ -9,6 +9,36 @@
 [![Latest Unstable Version](https://poser.pugx.org/eserozvataf/scabbia2-formatters/v/unstable)](https://packagist.org/packages/eserozvataf/scabbia2-formatters)
 [![Documentation Status](https://readthedocs.org/projects/scabbia2-documentation/badge/?version=latest)](https://readthedocs.org/projects/scabbia2-documentation)
 
+## Usage
+
+### Formatters
+
+```php
+use Scabbia\Formatters\ConsoleFormatter;
+use Scabbia\Formatters\HtmlFormatter;
+
+if (PHP_SAPI === "cli") {
+    $formatter = new ConsoleFormatter();
+} else {
+    $formatter = new HtmlFormatter();
+}
+
+$formatter->writeHeader(2, 'Heading');
+$formatter->writeColor('red', 'important text');
+$formatter->write('normal text');
+$formatter->writeArray(['array', 'output']);
+```
+
+### Auto-selecting Formatter
+
+```php
+use Scabbia\Formatters\Formatters;
+
+$formatter = Formatters::getCurrent();
+
+$formatter->write('an adaptive output');
+```
+
 ## Links
 - [List of All Scabbia2 Components](https://github.com/eserozvataf/scabbia2)
 - [Documentation](https://readthedocs.org/projects/scabbia2-documentation)
